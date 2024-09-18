@@ -1,157 +1,209 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 100%;
-    min-height: 100vh;
-    background: rgb(9,32,63);
-    background: linear-gradient(308deg, rgba(9,32,63,1) 0%, rgba(83,120,149,1) 100%);
-    padding: 10px;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(9, 32, 63);
+  background: linear-gradient(
+    308deg,
+    rgba(9, 32, 63, 1) 0%,
+    rgba(83, 120, 149, 1) 100%
+  );
+  padding: 10px;
 }
 
 .app-e {
-    width: 100%;
-    max-width: 540px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    /* Transparan */
-    background: rgba(255, 255, 255, 0.16);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.3px);
-    -webkit-backdrop-filter: blur(9.3px);
-    border: 1px solid rgba(255, 255, 255, 0.13);
-    /* tekan kene */
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
-    border-radius: 10px;
+  width: 100%;
+  max-width: 540px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* Transparan */
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  -webkit-backdrop-filter: blur(9.3px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  /* tekan kene */
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
 }
 
 .app-e h2 {
-    font-size: 35px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .app-e h2 img {
-    width: 35px;
-    margin-right: 10px;
+  width: 35px;
+  margin-right: 10px;
 }
 
 .row-e {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
-    flex-wrap: wrap; /* Tambahkan ini agar elemen bisa berpindah baris jika terlalu sempit */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  flex-wrap: wrap; /* Tambah ini agar elemen bisa berpindah baris jika terlalu sempit */
 }
 
-
 input {
-    flex: 1;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    background: transparent;
-    padding: 10px;
-    font-size: 17px;
-    font-weight: bold;
-    min-width: 0; /* Pastikan input bisa mengecil sesuai ruang */
-    width: 100%; /* Tambahkan width 100% agar responsif */
-    box-sizing: border-box;
+  flex: 1;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: transparent;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  min-width: 0; /* Pastikan input bisa mengecil sesuai ruang */
+  width: 100%; /* Tambahkan width 100% agar responsif */
+  box-sizing: border-box;
 }
 
 input::placeholder {
-    font-weight: normal;
-    font-size: 15px;
-    color: white;
-    opacity: 70%;
+  font-weight: normal;
+  font-size: 15px;
+  color: white;
+  opacity: 70%;
 }
 
 button {
-    border: none;
-    outline: none;
-    padding: 16px 25px;
-    background: #3994e8;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 40px;
-    min-width: 100px; /* Tentukan lebar minimum untuk tombol */
-    margin-left: 10px; /* Beri sedikit jarak antara input dan tombol */
-    width: auto;
+  border: none;
+  outline: none;
+  padding: 16px 25px;
+  background: #3994e8;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+  min-width: 100px; /* Tentukan lebar minimum untuk tombol */
+  margin-left: 10px; /* Beri sedikit jarak antara input dan tombol */
+  width: auto;
 }
 
 ul li {
-    text-transform: capitalize;
-    color: #fff;
-    list-style: none;
-    font-size: 25px;
-    font-weight: bolder;
-    padding: 12px 8px 12px 50px;
-    user-select: none;
-    cursor: pointer;
-    position: relative;
+  text-transform: capitalize;
+  color: #fff;
+  list-style: none;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 12px 8px 12px 50px;
+  padding-right: 60px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  flex-wrap: wrap;
+  word-wrap: break-word; /* Membungkus kata panjang */
+  overflow-wrap: break-word; /* Membungkus kata panjang */
+  max-width: 100%; /* Pastikan li tidak melebihi container */
+  line-height: 1.5; /* Tambah line-height agar lebih mudah dibaca */
 }
 ul li::before {
-    content: '';
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
-    background-image: url(images/unchecked.png);
-    background-size: 20px 20px;
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(images/unchecked.png);
+  background-size: 20px 20px;
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
 }
 
 ul li.uwis {
-    color: #ffffff61;
-    text-decoration: line-through;
-    font-style: italic;
-    font-weight: lighter;
+  color: #ffffff61;
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 ul li.uwis::before {
-    background-image: url(images/checked.png);
+  background-image: url(images/checked.png);
 }
 
 ul li span {
-    font-style: normal;
-    font-weight: normal;
-    position: absolute;
-    right: 0;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
-    color: #ffffff;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: #ffffff;
-    background: transparent;
-    backdrop-filter: blur(5px);
+  font-style: normal;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background: transparent;
+  backdrop-filter: blur(5px);
 }
 
 ul li span:hover {
-    background-color: #ff4d4db2
+  background-color: #ff4d4db2;
 }
+
+@media (max-width: 768px) {
+    .row-e {
+      flex-direction: row; /* Tetap dalam satu baris */
+      justify-content: space-between; /* Ruang antara input dan tombol */
+      padding-left: 0; /* Sesuaikan padding */
+    }
+  
+    input {
+      flex: 1;
+      min-width: 0;
+      padding: 10px;
+      padding-left: 14px;
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 10px 15px;
+      width: auto;
+      flex-shrink: 0; /* Pastikan tombol tidak mengecil */
+      margin-left: 10px; /* Berikan sedikit margin antara input dan tombol */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .row-e {
+      flex-direction: row; /* Pastikan input dan tombol tetap dalam satu baris */
+      justify-content: space-between;
+    }
+  
+    input {
+      flex: 1;
+      padding: 8px;
+      font-size: 12px;
+    }
+  
+    button {
+      padding: 10px 15px;
+      width: auto;
+      margin-left: 5px; /* Kurangi jarak antara input dan tombol */
+      flex-shrink: 0; /* Pastikan tombol tidak mengecil */
+    }
+  }
