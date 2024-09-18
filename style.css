@@ -59,7 +59,9 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
+    flex-wrap: wrap; /* Tambahkan ini agar elemen bisa berpindah baris jika terlalu sempit */
 }
+
 
 input {
     flex: 1;
@@ -70,7 +72,11 @@ input {
     padding: 10px;
     font-size: 17px;
     font-weight: bold;
+    min-width: 0; /* Pastikan input bisa mengecil sesuai ruang */
+    width: 100%; /* Tambahkan width 100% agar responsif */
+    box-sizing: border-box;
 }
+
 input::placeholder {
     font-weight: normal;
     font-size: 15px;
@@ -86,7 +92,10 @@ button {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 40px
+    border-radius: 40px;
+    min-width: 100px; /* Tentukan lebar minimum untuk tombol */
+    margin-left: 10px; /* Beri sedikit jarak antara input dan tombol */
+    width: auto;
 }
 
 ul li {
