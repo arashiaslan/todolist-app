@@ -2,6 +2,11 @@
 const inBox = document.getElementById("in-box");
 const listMu = document.getElementById("listmu");
 
+inBox.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") { // Check if the pressed key is Enter
+        tambahTugas(); // Call the same function as the button click
+    }
+});
 function tambahTugas() {
     if (inBox.value.trim() === '') {
         Swal.fire({
