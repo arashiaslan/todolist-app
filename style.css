@@ -65,11 +65,15 @@ input {
     flex: 1;
     border: none;
     outline: none;
+    color: #ffffff;
     background: transparent;
     padding: 10px;
-    font-weight: 14px
+    font-size: 17px;
+    font-weight: bold;
 }
 input::placeholder {
+    font-weight: normal;
+    font-size: 15px;
     color: white;
     opacity: 70%;
 }
