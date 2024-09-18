@@ -197,6 +197,7 @@ ul li span:hover {
     input {
       flex: 1;
       padding: 8px;
+      padding-left: 14px;
       font-size: 12px;
     }
   

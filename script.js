@@ -3,7 +3,7 @@ const inBox = document.getElementById("in-box");
 const listMu = document.getElementById("listmu");
 
 function tambahTugas() {
-    if (inBox.value === '') {
+    if (inBox.value.trim() === '') {
         Swal.fire({
             icon: "error",
             title: "Sing mau Isien sek!",
