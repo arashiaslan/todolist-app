@@ -7,7 +7,7 @@ function tambahTugas() {
         Swal.fire({
             icon: "error",
             title: "Sing mau Isien sek!",
-            text: "Ra diisi kok pencet tambah, meh nambah opo?!",
+            text: "Ra diisi kok pencet tambah, meh nambah opo?! nek gur spasi yo mending turu..",
         });
     } else {
         let li = document.createElement("li");
